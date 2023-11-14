@@ -2,7 +2,6 @@
   "name": "@pluralsh/socket",
   "version": "1.0.0",
   "description": "Absinthe Socket",
-  "module": "dist/index.js",
   "main": "compat/cjs/index.js",
   "react-native": "src/index",
   "scripts": {

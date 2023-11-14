@@ -2,7 +2,6 @@
   "name": "@pluralsh/socket-relay",
   "version": "1.0.0",
   "description": "Absinthe Socket Relay",
-  "module": "dist/index.js",
   "main": "src/index.js",
   "react-native": "src/index",
   "scripts": {
