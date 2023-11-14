@@ -2,6 +2,7 @@
   "name": "@framasoft/socket-graphiql",
   "version": "1.0.0",
   "description": "Socket GraphiQL Utilities",
+  "module": "dist/index.js",
   "main": "compat/cjs/index.js",
   "react-native": "src/index",
   "scripts": {
