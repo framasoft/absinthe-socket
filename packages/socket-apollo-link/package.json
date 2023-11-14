@@ -1,5 +1,5 @@
 {
-  "name": "@pluralsh/socket-apollo-link",
+  "name": "@framasoft/socket-apollo-link",
   "version": "1.0.0",
   "description": "Absinthe Socket Apollo Link",
   "main": "compat/cjs/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pluralsh/absinthe-socket.git"
+    "url": "git+https://github.com/framasoft/absinthe-socket.git"
   },
   "author": "Mauro Titimoli <mgtitimoli@gmail.com> (https://github.com/mgtitimoli)",
   "license": "MIT",
@@ -30,7 +30,7 @@
     "utils"
   ],
   "dependencies": {
-    "@pluralsh/socket": ">=1.0.0",
+    "@framasoft/socket": ">=1.0.0",
     "@apollo/client": "3.5.10",
     "@babel/runtime": "7.17.9",
     "core-js": "2.6.0",

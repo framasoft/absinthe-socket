@@ -1,8 +1,8 @@
 // @flow
 
-import {observe, send} from "@pluralsh/socket";
+import {observe, send} from "@framasoft/socket";
 
-import type {AbsintheSocket} from "@pluralsh/socket";
+import type {AbsintheSocket} from "@framasoft/socket";
 import type {FetchFunction} from "react-relay";
 
 /**

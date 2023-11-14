@@ -53,7 +53,7 @@ const createObserver = (notifier, handlers, observableObserver) => ({
  * @return {Observable}
  *
  * @example
- * import * as withAbsintheSocket from "@pluralsh/socket";
+ * import * as withAbsintheSocket from "@framasoft/socket";
  *
  * const unobserveOrCancelIfNeeded = (absintheSocket, notifier, observer) => {
  *   if (notifier && observer) {

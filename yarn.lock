@@ -1279,6 +1279,49 @@
     unique-filename "^1.1.1"
     which "^1.3.1"
 
+"@framasoft/socket-apollo-link@file:/var/home/tcit/dev/frama/absinthe-socket/packages/socket-apollo-link":
+  version "1.0.0"
+  resolved "file:packages/socket-apollo-link"
+  dependencies:
+    "@apollo/client" "3.5.10"
+    "@babel/runtime" "7.17.9"
+    "@framasoft/socket" ">=1.0.0"
+    core-js "2.6.0"
+    flow-static-land "0.2.8"
+    graphql "15.5.0"
+    zen-observable "0.8.11"
+
+"@framasoft/socket-graphiql@file:/var/home/tcit/dev/frama/absinthe-socket/packages/socket-graphiql":
+  version "1.0.0"
+  resolved "file:packages/socket-graphiql"
+  dependencies:
+    "@babel/runtime" "7.2.0"
+    "@framasoft/socket" ">=1.0.0"
+    "@jumpn/utils-graphql" "0.6.0"
+    core-js "2.6.0"
+
+"@framasoft/socket-relay@file:/var/home/tcit/dev/frama/absinthe-socket/packages/socket-relay":
+  version "1.0.0"
+  resolved "file:packages/socket-relay"
+  dependencies:
+    "@babel/runtime" "7.2.0"
+    "@framasoft/socket" ">=1.0.0"
+    "@jumpn/utils-graphql" "0.6.0"
+    "@jumpn/utils-promise" "0.3.1"
+    core-js "2.6.0"
+    react-relay "1.7.0"
+
+"@framasoft/socket@>=1.0.0", "@framasoft/socket@file:/var/home/tcit/dev/frama/absinthe-socket/packages/socket":
+  version "1.0.0"
+  resolved "file:packages/socket"
+  dependencies:
+    "@babel/runtime" "7.2.0"
+    "@jumpn/utils-array" "0.3.4"
+    "@jumpn/utils-composite" "0.7.0"
+    "@jumpn/utils-graphql" "0.6.0"
+    core-js "2.6.0"
+    zen-observable "0.8.11"
+
 "@gar/promisify@^1.1.3":
   version "1.1.3"
   resolved "https://registry.npmjs.org/@gar/promisify/-/promisify-1.1.3.tgz"
@@ -2345,11 +2388,6 @@
     tmp "~0.2.1"
     tslib "^2.3.0"
 
-"@nx/nx-darwin-arm64@16.3.2":
-  version "16.3.2"
-  resolved "https://registry.npmjs.org/@nx/nx-darwin-arm64/-/nx-darwin-arm64-16.3.2.tgz"
-  integrity sha512-YfYVNfsJBzBcBnJUU4AcA6A4QMkgnVlETfp4KGL36Otq542mRY1ISGHdox63ocI5AKh5gay5AaGcR4wR9PU9Vg==
-
 "@nx/workspace@16.3.2":
   version "16.3.2"
   resolved "https://registry.npmjs.org/@nx/workspace/-/workspace-16.3.2.tgz"
@@ -2631,49 +2669,6 @@
   version "0.11.0"
   resolved "https://registry.npmjs.org/@pkgjs/parseargs/-/parseargs-0.11.0.tgz"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
-
-"@pluralsh/socket-apollo-link@file:/Users/david/Plural/absinthe-socket/packages/socket-apollo-link":
-  version "1.0.0"
-  resolved "file:packages/socket-apollo-link"
-  dependencies:
-    "@apollo/client" "3.5.10"
-    "@babel/runtime" "7.17.9"
-    "@pluralsh/socket" ">=1.0.0"
-    core-js "2.6.0"
-    flow-static-land "0.2.8"
-    graphql "15.5.0"
-    zen-observable "0.8.11"
-
-"@pluralsh/socket-graphiql@file:/Users/david/Plural/absinthe-socket/packages/socket-graphiql":
-  version "1.0.0"
-  resolved "file:packages/socket-graphiql"
-  dependencies:
-    "@babel/runtime" "7.2.0"
-    "@jumpn/utils-graphql" "0.6.0"
-    "@pluralsh/socket" ">=1.0.0"
-    core-js "2.6.0"
-
-"@pluralsh/socket-relay@file:/Users/david/Plural/absinthe-socket/packages/socket-relay":
-  version "1.0.0"
-  resolved "file:packages/socket-relay"
-  dependencies:
-    "@babel/runtime" "7.2.0"
-    "@jumpn/utils-graphql" "0.6.0"
-    "@jumpn/utils-promise" "0.3.1"
-    "@pluralsh/socket" ">=1.0.0"
-    core-js "2.6.0"
-    react-relay "1.7.0"
-
-"@pluralsh/socket@>=1.0.0", "@pluralsh/socket@file:/Users/david/Plural/absinthe-socket/packages/socket":
-  version "1.0.0"
-  resolved "file:packages/socket"
-  dependencies:
-    "@babel/runtime" "7.2.0"
-    "@jumpn/utils-array" "0.3.4"
-    "@jumpn/utils-composite" "0.7.0"
-    "@jumpn/utils-graphql" "0.6.0"
-    core-js "2.6.0"
-    zen-observable "0.8.11"
 
 "@pnpm/config.env-replace@^1.1.0":
   version "1.1.0"
@@ -3041,12 +3036,10 @@ agentkeepalive@^3.4.1:
     humanize-ms "^1.2.1"
 
 agentkeepalive@^4.2.1:
-  version "4.3.0"
-  resolved "https://registry.npmjs.org/agentkeepalive/-/agentkeepalive-4.3.0.tgz"
-  integrity sha512-7Epl1Blf4Sy37j4v9f9FjICCh4+KAQOyXgHEwlyBiAQLbhKdq/i2QQU3amQalS/wPhdPzDXPL5DMR5bkn+YeWg==
+  version "4.2.1"
   dependencies:
     debug "^4.1.0"
-    depd "^2.0.0"
+    depd "^1.1.2"
     humanize-ms "^1.2.1"
 
 aggregate-error@^3.0.0:
@@ -3540,11 +3533,6 @@ binary@~0.3.0:
   dependencies:
     buffers "~0.1.1"
     chainsaw "~0.1.0"
-
-bindings@^1.5.0:
-  version "1.5.0"
-  dependencies:
-    file-uri-to-path "1.0.0"
 
 bl@^4.0.3:
   version "4.1.0"
@@ -4938,8 +4926,11 @@ delegates@^1.0.0:
   resolved "https://registry.npmjs.org/delegates/-/delegates-1.0.0.tgz"
   integrity sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o=
 
-depd@^2.0.0:
+depd@^1.1.2:
   version "1.1.2"
+
+depd@^2.0.0:
+  version "2.0.0"
 
 deprecation@^2.0.0, deprecation@^2.3.1:
   version "2.3.1"
@@ -5872,9 +5863,6 @@ file-entry-cache@^2.0.0:
     flat-cache "^1.2.1"
     object-assign "^4.0.1"
 
-file-uri-to-path@1.0.0:
-  version "1.0.0"
-
 filelist@^1.0.4:
   version "1.0.4"
   resolved "https://registry.npmjs.org/filelist/-/filelist-1.0.4.tgz"
@@ -6200,17 +6188,6 @@ fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
-
-fsevents@^1.2.7:
-  version "1.2.13"
-  dependencies:
-    bindings "^1.5.0"
-    nan "^2.12.1"
-
-fsevents@~2.3.2:
-  version "2.3.2"
-  resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
-  integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
 
 fstream@~1.0.10:
   version "1.0.12"
@@ -8760,9 +8737,7 @@ lru-cache@^6.0.0:
     yallist "^4.0.0"
 
 lru-cache@^7.4.4, lru-cache@^7.5.1, lru-cache@^7.7.1:
-  version "7.18.3"
-  resolved "https://registry.npmjs.org/lru-cache/-/lru-cache-7.18.3.tgz"
-  integrity sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==
+  version "7.13.2"
 
 lru-cache@^9.1.1:
   version "9.1.1"
@@ -9484,9 +9459,6 @@ mz@^2.5.0:
     object-assign "^4.0.1"
     thenify-all "^1.0.0"
 
-nan@^2.12.1:
-  version "2.17.0"
-
 nanomatch@^1.2.9:
   version "1.2.13"
   resolved "https://registry.npmjs.org/nanomatch/-/nanomatch-1.2.13.tgz"
@@ -9773,8 +9745,6 @@ npm-bundled@^1.0.1:
 
 npm-bundled@^1.1.1:
   version "1.1.2"
-  resolved "https://registry.npmjs.org/npm-bundled/-/npm-bundled-1.1.2.tgz"
-  integrity sha512-x5DHup0SuyQcmL3s7Rx/YQ8sbw/Hzg0rj48eN0dV7hf5cmQq5PXIeioroH3raV1QC1yh3uTYuMThvEQF3iKgGQ==
   dependencies:
     npm-normalize-package-bin "^1.0.1"
 
@@ -9838,8 +9808,6 @@ npm-normalize-package-bin@^1.0.0, npm-normalize-package-bin@^1.0.1:
 
 npm-normalize-package-bin@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.npmjs.org/npm-normalize-package-bin/-/npm-normalize-package-bin-2.0.0.tgz"
-  integrity sha512-awzfKUO7v0FscrSpRoogyNm0sajikhBWpU0QMrW09AMi9n1PoKU6WaIqUzuJSQnpciZZmJ/jMZ2Egfmb/9LiWQ==
 
 npm-normalize-package-bin@^3.0.0, npm-normalize-package-bin@^3.0.1:
   version "3.0.1"
@@ -9861,9 +9829,7 @@ npm-package-arg@^10.0.0, npm-package-arg@^10.1.0:
     validate-npm-package-name "^3.0.0"
 
 npm-package-arg@^9.0.0, npm-package-arg@^9.0.1, npm-package-arg@^9.1.0:
-  version "9.1.2"
-  resolved "https://registry.npmjs.org/npm-package-arg/-/npm-package-arg-9.1.2.tgz"
-  integrity sha512-pzd9rLEx4TfNJkovvlBSLGhq31gGu2QDexFPWT19yCDh0JgnRhlBLNo5759N0AJmBk+kQ9Y/hXoLnlgFD+ukmg==
+  version "9.1.0"
   dependencies:
     hosted-git-info "^5.0.0"
     proc-log "^2.0.1"
@@ -11616,9 +11582,7 @@ readable-stream@^3.4.0:
     util-deprecate "^1.0.1"
 
 readable-stream@^3.6.0:
-  version "3.6.2"
-  resolved "https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz"
-  integrity sha512-9u/sniCrY3D5WdsERHzHE4G2YCXqoG5FTHUiCC4SIbr6XcLZBY05ya9EKjYek9O5xOAwjGq+1JdGBAS7Q9ScoA==
+  version "3.6.0"
   dependencies:
     inherits "^2.0.3"
     string_decoder "^1.1.1"
@@ -12629,9 +12593,7 @@ socks-proxy-agent@^7.0.0:
     socks "^2.6.2"
 
 socks@^2.6.2:
-  version "2.7.1"
-  resolved "https://registry.npmjs.org/socks/-/socks-2.7.1.tgz"
-  integrity sha512-7maUZy1N7uo6+WVEX6psASxtNlKaNVMlGQKkG/63nEDdLOWNbiUMoLK7X4uYoLhQstau72mLgfEWcXcwsaHbYQ==
+  version "2.7.0"
   dependencies:
     ip "^2.0.0"
     smart-buffer "^4.2.0"
@@ -13220,7 +13182,17 @@ tar@^4.4.10, tar@^4.4.12, tar@^4.4.8:
     safe-buffer "^5.2.1"
     yallist "^3.1.1"
 
-tar@^6.1.0, tar@^6.1.11, tar@^6.1.13, tar@^6.1.15, tar@^6.1.2:
+tar@^6.1.0, tar@^6.1.11, tar@^6.1.2:
+  version "6.1.11"
+  dependencies:
+    chownr "^2.0.0"
+    fs-minipass "^2.0.0"
+    minipass "^3.0.0"
+    minizlib "^2.1.1"
+    mkdirp "^1.0.3"
+    yallist "^4.0.0"
+
+tar@^6.1.13, tar@^6.1.15:
   version "6.1.15"
   resolved "https://registry.npmjs.org/tar/-/tar-6.1.15.tgz"
   integrity sha512-/zKt9UyngnxIT/EAGYuxaMYgOIJiP81ab9ZfkILq4oNLPFX50qyYmu7jRj9qeXoxmJHjGlbH0+cm2uy1WCs10A==

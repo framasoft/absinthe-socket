@@ -1,5 +1,5 @@
 {
-  "name": "@pluralsh/socket-graphiql",
+  "name": "@framasoft/socket-graphiql",
   "version": "1.0.0",
   "description": "Socket GraphiQL Utilities",
   "main": "compat/cjs/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pluralsh/absinthe-socket.git"
+    "url": "git+https://github.com/framasoft/absinthe-socket.git"
   },
   "author": "Mauro Titimoli <mgtitimoli@gmail.com> (https://github.com/mgtitimoli)",
   "license": "MIT",
@@ -31,7 +31,7 @@
     "utils"
   ],
   "dependencies": {
-    "@pluralsh/socket": ">=1.0.0",
+    "@framasoft/socket": ">=1.0.0",
     "@babel/runtime": "7.2.0",
     "@jumpn/utils-graphql": "0.6.0",
     "core-js": "2.6.0"

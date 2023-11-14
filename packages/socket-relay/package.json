@@ -1,5 +1,5 @@
 {
-  "name": "@pluralsh/socket-relay",
+  "name": "@framasoft/socket-relay",
   "version": "1.0.0",
   "description": "Absinthe Socket Relay",
   "main": "src/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pluralsh/absinthe-socket.git"
+    "url": "git+https://github.com/framasoft/absinthe-socket.git"
   },
   "author": "Mauro Titimoli <mgtitimoli@gmail.com> (https://github.com/mgtitimoli)",
   "license": "MIT",
@@ -28,7 +28,7 @@
     "utils"
   ],
   "dependencies": {
-    "@pluralsh/socket": ">=1.0.0",
+    "@framasoft/socket": ">=1.0.0",
     "@babel/runtime": "7.2.0",
     "@jumpn/utils-graphql": "0.6.0",
     "@jumpn/utils-promise": "0.3.1",

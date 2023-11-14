@@ -1,5 +1,5 @@
 {
-  "name": "@pluralsh/absinthe-socket",
+  "name": "@framasoft/absinthe-socket",
   "private": true,
   "workspaces": [
     "packages/*"

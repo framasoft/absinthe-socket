@@ -62,7 +62,7 @@ const getExistentIfAny = (absintheSocket, request) => {
  * (see observe function)
  *
  * @example
- * import * as withAbsintheSocket from "@pluralsh/socket";
+ * import * as withAbsintheSocket from "@framasoft/socket";
  *
  * const operation = `
  *   subscription userSubscription($userId: ID!) {

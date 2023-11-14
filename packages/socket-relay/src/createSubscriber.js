@@ -1,11 +1,11 @@
 // @flow
 
-import notifierFind from "@pluralsh/socket/dist/notifier/find";
-import {observe, send, unobserveOrCancel} from "@pluralsh/socket";
+import notifierFind from "@framasoft/socket/dist/notifier/find";
+import {observe, send, unobserveOrCancel} from "@framasoft/socket";
 import {createDeferred} from "@jumpn/utils-promise";
 import {getOperationType} from "@jumpn/utils-graphql";
 
-import type {AbsintheSocket} from "@pluralsh/socket";
+import type {AbsintheSocket} from "@framasoft/socket";
 import type {SubscribeFunction} from "react-relay";
 
 import subscriptions from "./subscriptions";
