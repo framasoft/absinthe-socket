@@ -29,14 +29,14 @@
   ],
   "dependencies": {
     "@framasoft/socket": ">=1.0.0",
-    "@babel/runtime": "7.2.0",
+    "@babel/runtime": "^7.23.2",
     "@jumpn/utils-graphql": "0.6.0",
     "@jumpn/utils-promise": "0.3.1",
-    "core-js": "2.6.0",
-    "react-relay": "1.7.0"
+    "core-js": "^3.33.2",
+    "react-relay": "^16.0.0"
   },
   "devDependencies": {
-    "nps": "5.9.3"
+    "nps": "^5.10.0"
   },
   "publishConfig": {
     "access": "public"
