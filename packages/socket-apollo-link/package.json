@@ -1,6 +1,6 @@
 {
   "name": "@framasoft/socket-apollo-link",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Absinthe Socket Apollo Link",
   "module": "dist/index.js",
   "main": "compat/cjs/index.js",
